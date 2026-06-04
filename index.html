@@ -37,7 +37,7 @@
 
     <header class="topbar">
         <div class="brand">
-            <span class="brand-mark">Spotify Wrapped</span>
+            <span class="brand-mark">Nosso Wrapped</span>
             <span id="coupleTag" class="brand-subtitle">Carregando...</span>
         </div>
         <button id="toggleMusic" class="ghost-button" type="button">Tocar trilha</button>
@@ -167,7 +167,39 @@
                 <div class="track-info">
                     <p id="trackArtist" class="track-artist"></p>
                     <p id="trackReason" class="track-reason"></p>
-                    <audio id="audioPlayer" controls preload="none"></audio>
+                    <!-- Custom audio player -->
+                    <audio id="audioPlayer" preload="none"></audio>
+                    <div id="customPlayer" class="custom-player" style="display:none">
+                        <div class="cp-top">
+                            <button id="cpPlay" class="cp-play-btn" aria-label="Play/Pause">
+                                <svg id="cpPlayIcon" viewBox="0 0 24 24" fill="currentColor" width="22" height="22">
+                                    <path d="M8 5v14l11-7z" />
+                                </svg>
+                                <svg id="cpPauseIcon" viewBox="0 0 24 24" fill="currentColor" width="22" height="22"
+                                    style="display:none">
+                                    <path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z" />
+                                </svg>
+                            </button>
+                            <div class="cp-info">
+                                <div class="cp-waveform" id="cpWaveform">
+                                    <span></span><span></span><span></span><span></span><span></span>
+                                    <span></span><span></span><span></span><span></span><span></span>
+                                    <span></span><span></span><span></span><span></span><span></span>
+                                    <span></span><span></span><span></span><span></span><span></span>
+                                </div>
+                                <div class="cp-seek">
+                                    <span id="cpCurrent" class="cp-time">0:00</span>
+                                    <input id="cpSeek" class="cp-seekbar" type="range" min="0" max="100" value="0"
+                                        step="0.1">
+                                    <span id="cpDuration" class="cp-time">0:00</span>
+                                </div>
+                            </div>
+                            <div class="cp-vol-wrap">
+                                <span class="cp-vol-icon">♪</span>
+                                <input id="cpVolume" class="cp-vol" type="range" min="0" max="1" step="0.05" value="1">
+                            </div>
+                        </div>
+                    </div>
                     <div id="spotifyHint" style="
                         opacity: 0;
                         transform: translateY(6px);

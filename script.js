@@ -96,125 +96,125 @@ const relationshipData = {
   gallery: [
     {
       type: "image",
-      title: "Foto 01",
-      description: "Troque por uma foto marcante de voces.",
+      title: "Nascer do sol após o ano novo",
+      description: "Quando fomos assistir o nascer do sol depois do pedido de namoro na virada do ano.",
       src: "images/principal.jpg",
       size: "featured",
     },
     {
       type: "video",
-      title: "Video 01",
-      description: "Troque por um video especial do casal.",
+      title: "Montando Lego ao nascer do sol",
+      description: "De uma surpresa que deu errado e virou um momento unico, cheio de risadas e carinho. Pois tudo com você fica melhor.",
       src: "images/lego.mov",
       size: "tall",
     },
     {
       type: "image",
-      title: "Foto 02",
-      description: "Mais um momento que merece destaque.",
+      title: "Primeira vez no Boteco da Praia",
+      description: "A primeira vez que fomos no Boteco da Praia, depois do churrasco na minha casa e você conhecer minha mãe kkkk.",
       src: "images/boteco.jpg",
       size: "wide",
     },
     {
       type: "image",
-      title: "Foto 03",
-      description: "Espaco extra para mais uma lembranca linda.",
+      title: "Nossas alianças",
+      description: "Foto que tiramos das nossas alianças após o nascer do sol no dia em que te pedi em namoro.",
       src: "images/alianca.jpg",
       size: "quarter",
     },
     {
       type: "image",
-      title: "Foto 04",
-      description: "Outra foto favorita para preencher o mosaico.",
+      title: "Quando fomos no Polvilhana",
+      description: "Essa Polvilhana foi inesquecível, não vejo a hora de passar outra com você.",
       src: "images/polvilhana.jpg",
       size: "quarter",
     },
     {
       type: "video",
-      title: "Video 02",
-      description: "Mais um momento em movimento para guardar.",
+      title: "Pôr do sol na Polvilhana",
+      description: "Em um dos dias que estavamos na Polvilhana, e assistimos o pôr do sol juntos.",
       src: "images/por_do_sol.mp4",
       size: "tall-sm",
     },
     {
       type: "image",
-      title: "Foto 05",
-      description: "Mais uma lembranca que merece ficar aqui.",
+      title: "Ano Novo 2026",
+      description: "Nossa foto que tiramos após a virada no ano, e após o pedido de namoro.",
       src: "images/ano_novo.jpg",
       size: "mid",
     },
     {
       type: "image",
-      title: "Foto 06",
-      description: "Cada foto conta um pedaco da nossa historia.",
+      title: "Matuê juntos",
+      description: "Quando fomos no show do Matuê juntos, e foi incrível compartilhar esse momento com você.",
       src: "images/matue.jpg",
       size: "small",
     },
     {
       type: "image",
-      title: "Foto 07",
-      description: "Um momento especial que nao pode faltar.",
+      title: "Polvilhana",
+      description: "Quando fomos em um dia a tarde antes da Polvilhana.",
       src: "images/polvilhana1.jpg",
       size: "wide-sm",
     },
     {
       type: "video",
-      title: "Video 03",
-      description: "Um video que captura o melhor de nos dois.",
-      src: "images/video-3.mp4",
+      title: "Maquiagem",
+      description: "Quando você pediu para eu te maquiar, e você acabou gostando da maquiagem kkkkkk",
+      src: "images/maquiagem.mp4",
       size: "square",
     },
     {
       type: "image",
-      title: "Foto 08",
-      description: "A ultima foto, mas nao a ultima lembranca.",
+      title: "Parma Sushi",
+      description: "Primeira vez que fomos no Parma, e você estava começando a gostar de sushi.",
       src: "images/parma.jpg",
       size: "wide-lg",
     },
     {
       type: "image",
-      title: "Foto 09",
-      description: "Mais um momento que merece estar aqui.",
-      src: "images/foto-9.jpg",
+      title: "Joseph",
+      description: "Quando fomo no Joseph no dia da promoção do pastel com vinho, e você estava maravilhosa como sempre.",
+      src: "images/joseph.jpg",
       size: "half",
     },
     {
       type: "image",
-      title: "Foto 10",
-      description: "Cada foto e um capitulo da nossa historia.",
-      src: "images/foto-10.jpg",
+      title: "Quando andamos a cavalo juntos",
+      description: "Quando ficamos a tarde toda andando de cavalo juntos, foi muito divertido, e melhor ainda é ver você feliz fazendo isso.",
+      src: "images/cavalo.jpg",
       size: "half",
     },
     {
       type: "image",
-      title: "Foto 11",
-      description: "Um registro lindo de guardar para sempre.",
-      src: "images/foto-11.jpg",
+      title: "Selfie ao nascer do sol em Torres",
+      description: "Quando fomos assistir o nascer do sol em Torres no nosso aniversário de 4 meses de namoro.",
+      src: "images/torres1.jpg",
       size: "featured",
     },
     {
       type: "image",
-      title: "Foto 12",
-      description: "Mais uma lembranca que nao podia ficar de fora.",
-      src: "images/foto-12.jpg",
+      title: "Selfie a cavalo",
+      description: "Mais uma foto do dia que andamos de cavalo juntos.",
+      src: "images/cavalo1.jpg",
       size: "tall",
     },
     {
       type: "image",
-      title: "Foto 13",
-      description: "O album nunca e grande o suficiente pra nos.",
-      src: "images/foto-13.jpg",
+      title: "Nascer do sol em Torres",
+      description: "Mais uma foto linda nossa ao nascer do sol em Torres.",
+      src: "images/torres.jpg",
       size: "full",
     },
   ],
   soundtrack: {
     title: "Nossa musica oficial",
-    artist: "Artista + nome da musica",
+    artist: "Justin Bieber - As Long As You Love Me",
     reason:
       "Escreva aqui por que essa musica representa voces. Pode ser a letra, a epoca em que voces ouviam juntos ou a memoria que ela desperta.",
-    audioSrc: "Sounds/Beauty_and_beat.mp3",
+    audioSrc: "Sounds/Justin.mpeg",
     spotifyEmbedUrl:
-      "https://open.spotify.com/embed/track/6QFCMUUq1T2Vf5sFUXcuQ7?utm_source=generator",
+      "",
   },
   letter: {
     title: "Para a pessoa que faz minha vida tocar mais bonito",
@@ -237,7 +237,7 @@ const relationshipData = {
     },
     {
       name: "Lugar favorito do casal",
-      description: "Começamos a ir recentemente, mas ja é um dos nossos lugares preferidos para passar o tempo juntos.",
+      description: "Começamos a ir recentemente no Joseph, mas ja é um dos nossos lugares preferidos para passar o tempo juntos.",
       emoji: "🍺",
       lat: -29.12308744383334,
       lng: -49.645570747692034,
@@ -400,7 +400,10 @@ function renderSoundtrack() {
   setTextContent("trackReason", soundtrack.reason);
   if (soundtrack.audioSrc) {
     audioPlayer.src = soundtrack.audioSrc;
-    audioPlayer.style.display = "block";
+    audioPlayer.style.display = "none"; // hidden — custom player used instead
+    const customPlayer = document.getElementById("customPlayer");
+    if (customPlayer) customPlayer.style.display = "block";
+    setupCustomPlayer(audioPlayer);
   } else {
     audioPlayer.style.display = "none";
   }
@@ -525,11 +528,25 @@ function setupMusicToggle() {
           musicSection.classList.add("is-playing");
           toggleButton.textContent = "Pausar trilha";
           appState.audioEnabled = true;
+          document
+            .getElementById("cpPlayIcon")
+            ?.style.setProperty("display", "none");
+          document
+            .getElementById("cpPauseIcon")
+            ?.style.removeProperty("display");
+          document.getElementById("cpWaveform")?.classList.add("is-playing");
         } else {
           audioPlayer.pause();
           musicSection.classList.remove("is-playing");
           toggleButton.textContent = "Tocar trilha";
           appState.audioEnabled = false;
+          document
+            .getElementById("cpPlayIcon")
+            ?.style.removeProperty("display");
+          document
+            .getElementById("cpPauseIcon")
+            ?.style.setProperty("display", "none");
+          document.getElementById("cpWaveform")?.classList.remove("is-playing");
         }
       } else {
         spotifyEmbed.src = ensureSpotifyEmbedUrl(
@@ -910,6 +927,67 @@ function setupTypewriterLetter() {
   );
 
   observer.observe(letterSection);
+}
+
+// ── Custom audio player ───────────────────────────────
+function setupCustomPlayer(audio) {
+  const playBtn = document.getElementById("cpPlay");
+  const playIcon = document.getElementById("cpPlayIcon");
+  const pauseIcon = document.getElementById("cpPauseIcon");
+  const seekBar = document.getElementById("cpSeek");
+  const volBar = document.getElementById("cpVolume");
+  const currentEl = document.getElementById("cpCurrent");
+  const durationEl = document.getElementById("cpDuration");
+  const waveform = document.getElementById("cpWaveform");
+  const musicSection = document.getElementById("music");
+  const toggleBtn = document.getElementById("toggleMusic");
+  if (!playBtn) return;
+
+  const fmt = (s) => {
+    const m = Math.floor(s / 60);
+    const sec = Math.floor(s % 60);
+    return `${m}:${sec.toString().padStart(2, "0")}`;
+  };
+
+  const setPlaying = (playing) => {
+    playIcon.style.display = playing ? "none" : "";
+    pauseIcon.style.display = playing ? "" : "none";
+    waveform.classList.toggle("is-playing", playing);
+    musicSection.classList.toggle("is-playing", playing);
+    if (toggleBtn)
+      toggleBtn.textContent = playing ? "Pausar trilha" : "Tocar trilha";
+    appState.audioEnabled = playing;
+  };
+
+  playBtn.addEventListener("click", async () => {
+    if (audio.paused) {
+      await audio.play().catch(() => {});
+    } else {
+      audio.pause();
+    }
+  });
+
+  audio.addEventListener("play", () => setPlaying(true));
+  audio.addEventListener("pause", () => setPlaying(false));
+  audio.addEventListener("ended", () => setPlaying(false));
+
+  audio.addEventListener("loadedmetadata", () => {
+    durationEl.textContent = fmt(audio.duration);
+    seekBar.max = audio.duration;
+  });
+
+  audio.addEventListener("timeupdate", () => {
+    currentEl.textContent = fmt(audio.currentTime);
+    seekBar.value = audio.currentTime;
+  });
+
+  seekBar.addEventListener("input", () => {
+    audio.currentTime = seekBar.value;
+  });
+
+  volBar.addEventListener("input", () => {
+    audio.volume = volBar.value;
+  });
 }
 
 function init() {
