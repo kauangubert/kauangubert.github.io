@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosso Wrapped</title>
+    <meta name="description"
+        content="Um presente em formato de retrospectiva do relacionamento, inspirado no Spotify Wrapped.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:wght@400;500;700;900&family=Playfair+Display:ital,wght@0,700;0,900;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- INTRO SCREEN -->
+    <div id="introScreen" class="intro-screen">
+        <div class="intro-content">
+            <p class="intro-eyebrow">um presente especial</p>
+            <h1 class="intro-title" id="introTitle"></h1>
+            <p class="intro-sub" id="introSub"></p>
+            <div class="intro-progress">
+                <div class="intro-progress-bar" id="introBar"></div>
+            </div>
+        </div>
+        <div class="intro-particles" id="introParticles"></div>
+    </div>
+
+    <!-- Floating hearts injected by script -->
+
+    <div class="ambient ambient-one"></div>
+    <div class="ambient ambient-two"></div>
+    <div class="ambient ambient-three"></div>
+
+    <header class="topbar">
+        <div class="brand">
+            <span class="brand-mark">Spotify Wrapped</span>
+            <span id="coupleTag" class="brand-subtitle">Carregando...</span>
+        </div>
+        <button id="toggleMusic" class="ghost-button" type="button">Tocar trilha</button>
+    </header>
+
+    <main class="page-shell">
+        <aside class="side-progress" aria-label="Navegação das seções">
+            <button class="progress-dot active" data-target="hero" aria-label="Ir para abertura"></button>
+            <button class="progress-dot" data-target="stats" aria-label="Ir para estatísticas"></button>
+            <button class="progress-dot" data-target="counter" aria-label="Ir para contador"></button>
+            <button class="progress-dot" data-target="timeline" aria-label="Ir para linha do tempo"></button>
+            <button class="progress-dot" data-target="gallery" aria-label="Ir para galeria"></button>
+            <button class="progress-dot" data-target="music" aria-label="Ir para trilha sonora"></button>
+            <button class="progress-dot" data-target="quiz" aria-label="Ir para quiz"></button>
+            <button class="progress-dot" data-target="map" aria-label="Ir para mapa"></button>
+            <button class="progress-dot" data-target="letter" aria-label="Ir para mensagem final"></button>
+        </aside>
+
+        <!-- HERO -->
+        <section id="hero" class="panel hero-panel reveal">
+            <div class="hero-copy-column">
+                <p class="eyebrow">Seu romance em modo retrospectiva</p>
+                <h1 id="heroTitle">Carregando...</h1>
+                <p id="heroSubtitle" class="hero-copy"></p>
+                <div class="hero-chips">
+                    <div class="hero-highlight">
+                        <span class="highlight-label">Juntos desde</span>
+                        <strong id="relationshipDate"></strong>
+                    </div>
+                    <div class="hero-highlight">
+                        <span class="highlight-label">Ranking atual</span>
+                        <strong>Top 1 casal do mundo</strong>
+                    </div>
+                </div>
+                <div class="hero-actions">
+                    <a class="primary-button" href="#gallery">Ver as fotos favoritas</a>
+                    <a class="secondary-button" href="#music">Ouvir nossa faixa</a>
+                </div>
+            </div>
+
+            <div class="hero-media-column">
+                <article class="hero-cover">
+                    <div id="heroMedia" class="hero-cover-media"></div>
+                    <div class="hero-cover-meta">
+                        <p class="hero-cover-kicker">Top hit do coração</p>
+                        <h2 id="featuredMomentTitle">Carregando...</h2>
+                        <p id="featuredMomentText"></p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- STATS -->
+        <section id="stats" class="panel reveal">
+            <div class="section-heading">
+                <p class="eyebrow">As faixas mais tocadas</p>
+                <h2>Os números do nosso ano</h2>
+            </div>
+            <div class="stats-layout">
+                <div id="statsGrid" class="stats-grid"></div>
+                <div class="chart-card">
+                    <p class="chart-label">Top 5 sentimentos ao seu lado</p>
+                    <div id="topList" class="top-list"></div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- COUNTER -->
+        <section id="counter" class="panel counter-panel reveal">
+            <div class="section-heading">
+                <p class="eyebrow">Tempo real juntos</p>
+                <h2>Cada segundo conta</h2>
+            </div>
+            <div class="counter-grid">
+                <div class="counter-unit">
+                    <div class="counter-value" id="cntDays">000</div>
+                    <div class="counter-label">dias</div>
+                </div>
+                <div class="counter-sep">:</div>
+                <div class="counter-unit">
+                    <div class="counter-value" id="cntHours">00</div>
+                    <div class="counter-label">horas</div>
+                </div>
+                <div class="counter-sep">:</div>
+                <div class="counter-unit">
+                    <div class="counter-value" id="cntMinutes">00</div>
+                    <div class="counter-label">minutos</div>
+                </div>
+                <div class="counter-sep">:</div>
+                <div class="counter-unit">
+                    <div class="counter-value" id="cntSeconds">00</div>
+                    <div class="counter-label">segundos</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TIMELINE -->
+        <section id="timeline" class="panel reveal">
+            <div class="section-heading">
+                <p class="eyebrow">Retrospectiva por faixa</p>
+                <h2>Nossos momentos em ordem de replay</h2>
+            </div>
+            <div id="timelineList" class="timeline-list"></div>
+        </section>
+
+        <!-- GALLERY -->
+        <section id="gallery" class="panel gallery-panel reveal">
+            <div class="section-heading">
+                <p class="eyebrow">Álbum visual expandido</p>
+                <h2>Mais espaço para cada foto que merece destaque</h2>
+            </div>
+            <div id="galleryGrid" class="gallery-grid"></div>
+        </section>
+
+        <!-- MUSIC -->
+        <section id="music" class="panel music-panel reveal">
+            <div class="section-heading">
+                <p class="eyebrow">Single do casal</p>
+                <h2 id="trackTitle">Carregando...</h2>
+            </div>
+            <div class="music-card">
+                <div class="vinyl-stack">
+                    <div class="vinyl"></div>
+                    <div class="vinyl-glow"></div>
+                </div>
+                <div class="track-info">
+                    <p id="trackArtist" class="track-artist"></p>
+                    <p id="trackReason" class="track-reason"></p>
+                    <audio id="audioPlayer" controls preload="none"></audio>
+                    <div id="spotifyHint" style="
+                        opacity: 0;
+                        transform: translateY(6px);
+                        transition: opacity 500ms ease, transform 500ms ease;
+                        display: flex;
+                        align-items: center;
+                        gap: 8px;
+                        margin-top: 1rem;
+                        padding: 0.7rem 1rem;
+                        border-radius: 14px;
+                        border: 1px solid rgba(232, 121, 249, 0.25);
+                        background: rgba(232, 121, 249, 0.07);
+                        font-family: 'Cormorant Garamond', serif;
+                        font-size: 1rem;
+                        color: var(--muted);
+                    ">
+                        <span
+                            style="animation: hintPulse 1.2s ease-in-out infinite; display:inline-block; font-size:1.1rem;">♪</span>
+                        Clique em <strong style="color: var(--gold); margin: 0 3px;">play</strong> no player abaixo para
+                        tocar
+                        <span
+                            style="animation: hintBounce 1s ease-in-out infinite; display:inline-block; margin-left:auto;">↓</span>
+                    </div>
+                    <iframe id="spotifyEmbed" title="Spotify player" loading="lazy"
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- MAP -->
+        <section id="map" class="panel map-panel reveal">
+            <div class="section-heading">
+                <p class="eyebrow">Nossos lugares especiais</p>
+                <h2>O mapa da nossa história</h2>
+            </div>
+            <div id="mapContainer" class="map-container">
+                <div id="mapPlaceholder" class="map-placeholder">
+                    <div class="map-placeholder-inner">
+                        <span class="map-placeholder-icon">🗺</span>
+                        <p>Adicione suas coordenadas no <strong>script.js</strong> para ver o mapa</p>
+                    </div>
+                </div>
+                <div id="mapPins" class="map-pins-list"></div>
+            </div>
+        </section>
+
+        <!-- QUIZ -->
+        <section id="quiz" class="panel quiz-panel reveal">
+            <div class="section-heading">
+                <p class="eyebrow">Você prestou atenção?</p>
+                <h2>Quiz do nosso relacionamento</h2>
+            </div>
+            <div id="quizContainer" class="quiz-container"></div>
+        </section>
+
+        <!-- LETTER -->
+        <section id="letter" class="panel final-panel reveal">
+            <p class="eyebrow">Mensagem escondida na última faixa</p>
+            <h2 id="letterTitle">Carregando...</h2>
+            <div class="letter-card">
+                <p id="letterBody" class="typewriter-text"></p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Floating SVG hearts, stars & petals with glow -->
+    <script>
+        (function spawnFloaters() {
+            const shapes = [
+                // Heart
+                (c, s) => `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 30" width="${s}" height="${s}"><defs><filter id="gf${s}"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><path d="M16 27S2 18.5 2 9.5A7.5 7.5 0 0 1 16 5.9 7.5 7.5 0 0 1 30 9.5C30 18.5 16 27 16 27z" fill="${c}" filter="url(#gf${s})"/></svg>`,
+                // 4-point sparkle
+                (c, s) => `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="${s}" height="${s}"><defs><filter id="gf${s}a"><feGaussianBlur stdDeviation="1.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><polygon points="16,2 18.5,13.5 30,16 18.5,18.5 16,30 13.5,18.5 2,16 13.5,13.5" fill="${c}" filter="url(#gf${s}a)"/></svg>`,
+                // Petal / flower
+                (c, s) => `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="${s}" height="${s}"><defs><filter id="gf${s}b"><feGaussianBlur stdDeviation="1.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><g fill="${c}" filter="url(#gf${s}b)"><ellipse cx="16" cy="9" rx="4" ry="7"/><ellipse cx="16" cy="9" rx="4" ry="7" transform="rotate(60 16 16)"/><ellipse cx="16" cy="9" rx="4" ry="7" transform="rotate(120 16 16)"/><ellipse cx="16" cy="9" rx="4" ry="7" transform="rotate(180 16 16)"/><ellipse cx="16" cy="9" rx="4" ry="7" transform="rotate(240 16 16)"/><ellipse cx="16" cy="9" rx="4" ry="7" transform="rotate(300 16 16)"/><circle cx="16" cy="16" r="4"/></g></svg>`,
+                // Diamond
+                (c, s) => `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="${s}" height="${s}"><defs><filter id="gf${s}c"><feGaussianBlur stdDeviation="1.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><polygon points="12,2 22,12 12,22 2,12" fill="${c}" filter="url(#gf${s}c)"/></svg>`,
+            ];
+            const colors = [
+                'rgba(232,121,249,0.82)',
+                'rgba(56,189,248,0.76)',
+                'rgba(233,213,255,0.72)',
+                'rgba(232,121,249,0.60)',
+                'rgba(56,189,248,0.55)',
+            ];
+            const count = 24;
+            for (let i = 0; i < count; i++) {
+                const fn = shapes[i % shapes.length];
+                const color = colors[Math.floor(Math.random() * colors.length)];
+                const sizePx = Math.round(13 + Math.random() * 20);
+                const el = document.createElement('span');
+                el.className = 'petal';
+                el.setAttribute('aria-hidden', 'true');
+                el.innerHTML = fn(color, sizePx);
+                const left = Math.random() * 100;
+                const duration = 16 + Math.random() * 26;
+                const delay = Math.random() * duration;
+                const drift = (Math.random() - 0.5) * 140;
+                el.style.cssText = `left:${left}vw;top:-70px;animation-duration:${duration}s;animation-delay:-${delay}s;--drift:${drift}px;`;
+                document.body.appendChild(el);
+            }
+        })();
+    </script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
