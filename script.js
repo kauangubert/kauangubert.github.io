@@ -97,56 +97,64 @@ const relationshipData = {
     {
       type: "image",
       title: "Nascer do sol após o ano novo",
-      description: "Quando fomos assistir o nascer do sol depois do pedido de namoro na virada do ano.",
+      description:
+        "Quando fomos assistir o nascer do sol depois do pedido de namoro na virada do ano.",
       src: "Images/principal.jpg",
       size: "featured",
     },
     {
       type: "video",
       title: "Montando Lego ao nascer do sol",
-      description: "De uma surpresa que deu errado e virou um momento unico, cheio de risadas e carinho. Pois tudo com você fica melhor.",
+      description:
+        "De uma surpresa que deu errado e virou um momento unico, cheio de risadas e carinho. Pois tudo com você fica melhor.",
       src: "Images/lego.MOV",
       size: "tall",
     },
     {
       type: "image",
       title: "Primeira vez no Boteco da Praia",
-      description: "A primeira vez que fomos no Boteco da Praia, depois do churrasco na minha casa e você conhecer minha mãe kkkk.",
+      description:
+        "A primeira vez que fomos no Boteco da Praia, depois do churrasco na minha casa e você conhecer minha mãe kkkk.",
       src: "Images/boteco.jpg",
       size: "wide",
     },
     {
       type: "image",
       title: "Nossas alianças",
-      description: "Foto que tiramos das nossas alianças após o nascer do sol no dia em que te pedi em namoro.",
+      description:
+        "Foto que tiramos das nossas alianças após o nascer do sol no dia em que te pedi em namoro.",
       src: "Images/alianca.jpg",
       size: "quarter",
     },
     {
       type: "image",
       title: "Quando fomos no Polvilhana",
-      description: "Essa Polvilhana foi inesquecível, não vejo a hora de passar outra com você.",
+      description:
+        "Essa Polvilhana foi inesquecível, não vejo a hora de passar outra com você.",
       src: "Images/polvilhana.jpg",
       size: "quarter",
     },
     {
       type: "video",
       title: "Pôr do sol na Polvilhana",
-      description: "Em um dos dias que estavamos na Polvilhana, e assistimos o pôr do sol juntos.",
+      description:
+        "Em um dos dias que estavamos na Polvilhana, e assistimos o pôr do sol juntos.",
       src: "Images/por_do_sol.mp4",
       size: "tall-sm",
     },
     {
       type: "image",
       title: "Ano Novo 2026",
-      description: "Nossa foto que tiramos após a virada no ano, e após o pedido de namoro.",
+      description:
+        "Nossa foto que tiramos após a virada no ano, e após o pedido de namoro.",
       src: "Images/ano_novo.jpg",
       size: "mid",
     },
     {
       type: "image",
       title: "Matuê juntos",
-      description: "Quando fomos no show do Matuê juntos, e foi incrível compartilhar esse momento com você.",
+      description:
+        "Quando fomos no show do Matuê juntos, e foi incrível compartilhar esse momento com você.",
       src: "Images/matue.jpg",
       size: "small",
     },
@@ -160,35 +168,40 @@ const relationshipData = {
     {
       type: "video",
       title: "Maquiagem",
-      description: "Quando você pediu para eu te maquiar, e você acabou gostando da maquiagem kkkkkk",
+      description:
+        "Quando você pediu para eu te maquiar, e você acabou gostando da maquiagem kkkkkk.",
       src: "Images/maquiagem.mp4",
       size: "square",
     },
     {
       type: "image",
       title: "Parma Sushi",
-      description: "Primeira vez que fomos no Parma, e você estava começando a gostar de sushi.",
+      description:
+        "Primeira vez que fomos no Parma, e você estava começando a gostar de sushi.",
       src: "Images/parma.jpg",
       size: "wide-lg",
     },
     {
       type: "image",
       title: "Joseph",
-      description: "Quando fomo no Joseph no dia da promoção do pastel com vinho, e você estava maravilhosa como sempre.",
+      description:
+        "Quando fomo no Joseph no dia da promoção do pastel com vinho, e você estava maravilhosa como sempre.",
       src: "Images/joseph.jpg",
       size: "half",
     },
     {
       type: "image",
       title: "Quando andamos a cavalo juntos",
-      description: "Quando ficamos a tarde toda andando de cavalo juntos, foi muito divertido, e melhor ainda é ver você feliz fazendo isso.",
+      description:
+        "Quando ficamos a tarde toda andando de cavalo juntos, foi muito divertido, e melhor ainda é ver você feliz fazendo isso.",
       src: "Images/cavalo.jpg",
       size: "half",
     },
     {
       type: "image",
       title: "Selfie ao nascer do sol em Torres",
-      description: "Quando fomos assistir o nascer do sol em Torres no nosso aniversário de 4 meses de namoro.",
+      description:
+        "Quando fomos assistir o nascer do sol em Torres no nosso aniversário de 4 meses de namoro.",
       src: "Images/torres1.jpg",
       size: "featured",
     },
@@ -213,8 +226,7 @@ const relationshipData = {
     reason:
       "Escreva aqui por que essa musica representa voces. Pode ser a letra, a epoca em que voces ouviam juntos ou a memoria que ela desperta.",
     audioSrc: "Sounds/Justin.mpeg",
-    spotifyEmbedUrl:
-      "",
+    spotifyEmbedUrl: "",
   },
   letter: {
     title: "Para a pessoa que faz minha vida tocar mais bonito",
@@ -230,14 +242,16 @@ const relationshipData = {
     },
     {
       name: "Pedido de namoro",
-      description: "Foi na virada do ano, com os fogos no céu, e o nervosismo a mil. Vai sempre ficar marcado na memória.",
+      description:
+        "Foi na virada do ano, com os fogos no céu, e o nervosismo a mil. Vai sempre ficar marcado na memória.",
       emoji: "💍",
       lat: -29.164028,
       lng: -49.580439,
     },
     {
       name: "Lugar favorito do casal",
-      description: "Começamos a ir recentemente no Joseph, mas ja é um dos nossos lugares preferidos para passar o tempo juntos.",
+      description:
+        "Começamos a ir recentemente no Joseph, mas ja é um dos nossos lugares preferidos para passar o tempo juntos.",
       emoji: "🍺",
       lat: -29.12308744383334,
       lng: -49.645570747692034,
@@ -245,34 +259,89 @@ const relationshipData = {
   ],
   quiz: [
     {
-      question: "Onde foi o nosso primeiro encontro?",
-      options: ["Resposta A", "Resposta B", "Resposta C", "Resposta D"],
-      correct: 0,
-      explanation: "Coloque aqui uma frase carinhosa sobre esse momento.",
-    },
-    {
-      question: "Qual foi a primeira musica que ouvimos juntos?",
-      options: ["Resposta A", "Resposta B", "Resposta C", "Resposta D"],
+      question: "Qual filme assistimos no nosso primeiro encontro?",
+      options: ["Jogos Vorazes 3", "Telefone Preto 2", "Sonic 3", "Nosferatu"],
       correct: 1,
-      explanation: "Coloque aqui uma frase carinhosa sobre esse momento.",
+      explanation:
+        "Foi no cinema assistindo Telefone Preto 2 que te vi pela primeira vez. Fiquei nervoso e feliz ao mesmo tempo.",
     },
     {
-      question: "Qual e o prato favorito do casal?",
-      options: ["Resposta A", "Resposta B", "Resposta C", "Resposta D"],
+      question: "Onde foi o nosso primeiro selinho?",
+      options: [
+        "Na praia de Balneario Gaivota",
+        "Na saida do cinema",
+        "No Pimenta Pasteis",
+        "Na casa de um amigo",
+      ],
       correct: 2,
-      explanation: "Coloque aqui uma frase carinhosa sobre esse momento.",
+      explanation:
+        "No Pimenta Pasteis, depois do cinema. Um momento simples que nao consigo esquecer.",
     },
     {
-      question: "Em que mes comemoramos nosso primeiro mes juntos?",
-      options: ["Resposta A", "Resposta B", "Resposta C", "Resposta D"],
-      correct: 0,
-      explanation: "Coloque aqui uma frase carinhosa sobre esse momento.",
+      question: "Que presente eu te dei no nosso primeiro mes juntos?",
+      options: [
+        "Flores e chocolate",
+        "Gloss da Francini, chocolate e uma carta",
+        "Perfume e carta",
+        "Brinco e chocolate",
+      ],
+      correct: 1,
+      explanation:
+        "Eu sabia o que voce queria e quis fazer voce feliz desde o comeco. Ja era assim em novembro.",
     },
     {
-      question: "Qual e o apelido carinhoso que uso para te chamar?",
-      options: ["Resposta A", "Resposta B", "Resposta C", "Resposta D"],
-      correct: 3,
-      explanation: "Coloque aqui uma frase carinhosa sobre esse momento.",
+      question: "Onde assistimos o sol nascer quando pedi voce em namoro?",
+      options: [
+        "No mirante da cidade",
+        "Na beira da estrada",
+        "Na praia, depois da virada",
+        "Na varanda de casa",
+      ],
+      correct: 2,
+      explanation:
+        "Virada do ano, nossas aliancas e o sol nascendo na praia. Nao podia ser mais perfeito.",
+    },
+    {
+      question: "Em que dia oficial nos tornamos namorados?",
+      options: [
+        "25 de outubro de 2025",
+        "01 de novembro de 2025",
+        "01 de janeiro de 2026",
+        "14 de fevereiro de 2026",
+      ],
+      correct: 2,
+      explanation:
+        "01/01/26 — comecamos o ano novo e nossa historia oficial ao mesmo tempo.",
+    },
+    {
+      question: "Como eu costumo te chamar?",
+      options: ["Bebe", "Mo ou Mozi", "Florzinha", "Princesa"],
+      correct: 1,
+      explanation: "Mo ou Mozi — simples, carinhoso e so meu. Assim como voce.",
+    },
+    {
+      question: "O que temos feito juntos nos fins de semana ultimamente?",
+      options: [
+        "Assistir series em casa",
+        "Ver o cavalo e andar a cavalo",
+        "Ir ao shopping",
+        "Jogar jogos de tabuleiro",
+      ],
+      correct: 1,
+      explanation:
+        "Eu nem imaginava que ia gostar tanto, mas qualquer coisa ao seu lado vira o programa favorito.",
+    },
+    {
+      question: "Como nos conhecemos?",
+      options: [
+        "Pelo Tinder",
+        "Por uma amiga em comum que nos apresentou pelo Instagram",
+        "Numa festa",
+        "Na faculdade",
+      ],
+      correct: 1,
+      explanation:
+        "Uma amiga teve a melhor ideia da vida quando resolveu nos apresentar. Sou grato a ela todo dia.",
     },
   ],
 };
@@ -311,28 +380,21 @@ function renderStats() {
   document.getElementById("statsGrid").innerHTML = relationshipData.stats
     .map(
       (stat) => `
-        <article class="stat-card">
-            <div>
-                <p class="stat-label">${stat.label}</p>
-                <div class="stat-value">${stat.value}</div>
-            </div>
-            <p class="stat-description">${stat.description}</p>
-        </article>
-    `,
+    <article class="stat-card">
+      <div><p class="stat-label">${stat.label}</p><div class="stat-value">${stat.value}</div></div>
+      <p class="stat-description">${stat.description}</p>
+    </article>
+  `,
     )
     .join("");
-
   document.getElementById("topList").innerHTML = relationshipData.topFive
     .map(
       (item, i) => `
-        <article class="top-item">
-            <div class="top-rank">#${i + 1}</div>
-            <div>
-                <strong>${item.title}</strong>
-                <span>${item.description}</span>
-            </div>
-        </article>
-    `,
+    <article class="top-item">
+      <div class="top-rank">#${i + 1}</div>
+      <div><strong>${item.title}</strong><span>${item.description}</span></div>
+    </article>
+  `,
     )
     .join("");
 }
@@ -341,14 +403,11 @@ function renderTimeline() {
   document.getElementById("timelineList").innerHTML = relationshipData.moments
     .map(
       (m) => `
-        <article class="timeline-item">
-            <div class="timeline-year">${m.date}</div>
-            <div>
-                <h3 class="timeline-title">${m.title}</h3>
-                <p class="timeline-description">${m.description}</p>
-            </div>
-        </article>
-    `,
+    <article class="timeline-item">
+      <div class="timeline-year">${m.date}</div>
+      <div><h3 class="timeline-title">${m.title}</h3><p class="timeline-description">${m.description}</p></div>
+    </article>
+  `,
     )
     .join("");
 }
@@ -363,16 +422,15 @@ function renderGallery() {
     .map((item) => {
       const sizeClass = item.size ? `is-${item.size}` : "";
       return `
-            <article class="media-card ${sizeClass}">
-                <div class="media-visual">
-                    ${createMediaMarkup(item)}
-                    <div class="media-overlay">
-                        <h3 class="media-title">${item.title}</h3>
-                        <p class="media-description">${item.description}</p>
-                    </div>
-                </div>
-            </article>
-        `;
+      <article class="media-card ${sizeClass}">
+        <div class="media-visual">
+          ${createMediaMarkup(item)}
+          <div class="media-overlay">
+            <h3 class="media-title">${item.title}</h3>
+            <p class="media-description">${item.description}</p>
+          </div>
+        </div>
+      </article>`;
     })
     .join("");
 }
@@ -381,12 +439,7 @@ function createMediaMarkup(item) {
   const fallback = `<div class="media-placeholder">Adicione o arquivo em<strong>${item.src}</strong></div>`;
   if (!fileExists(item.src)) return fallback;
   if (item.type === "video") {
-    return `
-            <video class="media-asset" preload="metadata" playsinline muted loop>
-                <source src="${item.src}">
-            </video>
-            ${fallback}
-        `;
+    return `<video class="media-asset" preload="metadata" playsinline muted loop><source src="${item.src}"></video>${fallback}`;
   }
   return `<img class="media-asset" src="${item.src}" alt="${item.title}">${fallback}`;
 }
@@ -400,7 +453,7 @@ function renderSoundtrack() {
   setTextContent("trackReason", soundtrack.reason);
   if (soundtrack.audioSrc) {
     audioPlayer.src = soundtrack.audioSrc;
-    audioPlayer.style.display = "none"; // hidden — custom player used instead
+    audioPlayer.style.display = "none";
     const customPlayer = document.getElementById("customPlayer");
     if (customPlayer) customPlayer.style.display = "block";
     setupCustomPlayer(audioPlayer);
@@ -455,7 +508,6 @@ function hydrateGalleryFallbacks() {
     });
 }
 
-// Auto-play gallery videos when they scroll into view, pause when they leave
 function setupVideoAutoplay() {
   const videoObserver = new IntersectionObserver(
     (entries) => {
@@ -470,7 +522,6 @@ function setupVideoAutoplay() {
     },
     { threshold: 0.35 },
   );
-
   document
     .querySelectorAll(".gallery-grid video, .hero-cover-media video")
     .forEach((video) => {
@@ -481,7 +532,6 @@ function setupVideoAutoplay() {
 function setupScrollObserver() {
   const sections = [...document.querySelectorAll(".panel")];
   const dots = [...document.querySelectorAll(".progress-dot")];
-
   const observer = new IntersectionObserver(
     (entries) => {
       entries.forEach((entry) => {
@@ -498,7 +548,6 @@ function setupScrollObserver() {
     },
     { threshold: 0.15 },
   );
-
   sections.forEach((section) => observer.observe(section));
   dots.forEach((dot) => {
     dot.addEventListener("click", () => {
@@ -515,7 +564,6 @@ function setupMusicToggle() {
   const musicSection = document.getElementById("music");
   const spotifyEmbed = document.getElementById("spotifyEmbed");
   const { soundtrack } = relationshipData;
-
   toggleButton.addEventListener("click", async () => {
     if (!audioPlayer.src && !soundtrack.spotifyEmbedUrl) {
       toggleButton.textContent = "Adicione uma musica primeiro";
@@ -557,12 +605,10 @@ function setupMusicToggle() {
         musicSection.scrollIntoView({ behavior: "smooth", block: "center" });
         toggleButton.textContent = "▶ Clique no play abaixo";
         appState.spotifyActivated = true;
-        // Show hint arrow pointing at the Spotify embed
         const hint = document.getElementById("spotifyHint");
         if (hint) {
           hint.style.opacity = "1";
           hint.style.transform = "translateY(0)";
-          // Hide hint after user interacts with iframe area
           spotifyEmbed.addEventListener(
             "mouseenter",
             () => {
@@ -579,7 +625,6 @@ function setupMusicToggle() {
       toggleButton.textContent = "Clique no play do Spotify abaixo";
     }
   });
-
   audioPlayer.addEventListener("pause", () => {
     musicSection.classList.remove("is-playing");
     if (appState.audioEnabled) toggleButton.textContent = "Tocar trilha";
@@ -600,11 +645,9 @@ function ensureSpotifyEmbedUrl(url, autoplay = false) {
   return parsedUrl.toString();
 }
 
-// ── Live counter ──────────────────────────────────────
 function setupLiveCounter() {
   const startDate = new Date(relationshipData.couple.startedAt + "T00:00:00");
   const pad = (n, len = 2) => String(n).padStart(len, "0");
-
   function tick() {
     const diff = Date.now() - startDate.getTime();
     const totalSecs = Math.floor(diff / 1000);
@@ -612,12 +655,10 @@ function setupLiveCounter() {
     const mins = Math.floor(totalSecs / 60) % 60;
     const hours = Math.floor(totalSecs / 3600) % 24;
     const days = Math.floor(totalSecs / 86400);
-
     const dEl = document.getElementById("cntDays");
     const hEl = document.getElementById("cntHours");
     const mEl = document.getElementById("cntMinutes");
     const sEl = document.getElementById("cntSeconds");
-
     if (dEl) dEl.textContent = pad(days, 3);
     if (hEl) hEl.textContent = pad(hours);
     if (mEl) mEl.textContent = pad(mins);
@@ -626,7 +667,7 @@ function setupLiveCounter() {
       sEl.textContent = pad(secs);
       if (prev !== pad(secs)) {
         sEl.classList.remove("tick-anim");
-        void sEl.offsetWidth; // reflow
+        void sEl.offsetWidth;
         sEl.classList.add("tick-anim");
       }
     }
@@ -635,35 +676,21 @@ function setupLiveCounter() {
   setInterval(tick, 1000);
 }
 
-// ── Quiz ───────────────────────────────────────────────
 function renderQuiz() {
   const container = document.getElementById("quizContainer");
   if (!container) return;
   const questions = relationshipData.quiz;
-  let current = 0;
-  let score = 0;
-  let answered = false;
-
+  let current = 0,
+    score = 0,
+    answered = false;
   function renderQuestion() {
     const q = questions[current];
     container.innerHTML = `
-            <div class="quiz-progress">
-                <div class="quiz-progress-bar" style="width:${(current / questions.length) * 100}%"></div>
-            </div>
-            <p class="quiz-counter">Pergunta ${current + 1} de ${questions.length}</p>
-            <h3 class="quiz-question">${q.question}</h3>
-            <div class="quiz-options">
-                ${q.options
-                  .map(
-                    (opt, i) => `
-                    <button class="quiz-option" data-index="${i}">${opt}</button>
-                `,
-                  )
-                  .join("")}
-            </div>
-            <div class="quiz-feedback" id="quizFeedback"></div>
-        `;
-
+      <div class="quiz-progress"><div class="quiz-progress-bar" style="width:${(current / questions.length) * 100}%"></div></div>
+      <p class="quiz-counter">Pergunta ${current + 1} de ${questions.length}</p>
+      <h3 class="quiz-question">${q.question}</h3>
+      <div class="quiz-options">${q.options.map((opt, i) => `<button class="quiz-option" data-index="${i}">${opt}</button>`).join("")}</div>
+      <div class="quiz-feedback" id="quizFeedback"></div>`;
     container.querySelectorAll(".quiz-option").forEach((btn) => {
       btn.addEventListener("click", () => {
         if (answered) return;
@@ -671,13 +698,11 @@ function renderQuiz() {
         const chosen = parseInt(btn.dataset.index);
         const correct = q.correct;
         const feedback = document.getElementById("quizFeedback");
-
         container.querySelectorAll(".quiz-option").forEach((b, i) => {
           b.disabled = true;
           if (i === correct) b.classList.add("is-correct");
           else if (i === chosen) b.classList.add("is-wrong");
         });
-
         if (chosen === correct) {
           score++;
           feedback.innerHTML = `<span class="quiz-icon">✦</span> Acertou! ${q.explanation}`;
@@ -686,7 +711,6 @@ function renderQuiz() {
           feedback.innerHTML = `<span class="quiz-icon">♡</span> Quase... ${q.explanation}`;
           feedback.classList.add("is-wrong");
         }
-
         setTimeout(() => {
           current++;
           answered = false;
@@ -699,7 +723,6 @@ function renderQuiz() {
       });
     });
   }
-
   function renderResult() {
     const pct = Math.round((score / questions.length) * 100);
     const msgs = [
@@ -718,55 +741,38 @@ function renderQuiz() {
     ];
     const msg = [...msgs].reverse().find((m) => pct >= m.min);
     container.innerHTML = `
-            <div class="quiz-result">
-                <div class="quiz-result-icon">${msg.icon}</div>
-                <div class="quiz-result-score">${score}<span>/${questions.length}</span></div>
-                <p class="quiz-result-msg">${msg.text}</p>
-                <button class="secondary-button quiz-restart" onclick="location.reload()">Tentar de novo ↺</button>
-            </div>
-        `;
+      <div class="quiz-result">
+        <div class="quiz-result-icon">${msg.icon}</div>
+        <div class="quiz-result-score">${score}<span>/${questions.length}</span></div>
+        <p class="quiz-result-msg">${msg.text}</p>
+        <button class="secondary-button quiz-restart" onclick="location.reload()">Tentar de novo ↺</button>
+      </div>`;
   }
-
   renderQuestion();
 }
 
-// ── Intro screen ──────────────────────────────────────
 function setupIntro() {
   const screen = document.getElementById("introScreen");
   if (!screen) return;
-
   const { couple } = relationshipData;
   const titleEl = document.getElementById("introTitle");
   const subEl = document.getElementById("introSub");
   const bar = document.getElementById("introBar");
   const particles = document.getElementById("introParticles");
-
-  // Spawn particles
   const symbols = ["♥", "✦", "✿", "♡", "❋", "✶"];
   for (let i = 0; i < 30; i++) {
     const p = document.createElement("span");
     p.className = "intro-particle";
     p.textContent = symbols[i % symbols.length];
-    p.style.cssText = `
-            left:${Math.random() * 100}%;
-            top:${Math.random() * 100}%;
-            font-size:${0.6 + Math.random() * 1.2}rem;
-            animation-delay:${Math.random() * 2}s;
-            animation-duration:${2 + Math.random() * 3}s;
-            opacity:${0.2 + Math.random() * 0.5};
-        `;
+    p.style.cssText = `left:${Math.random() * 100}%;top:${Math.random() * 100}%;font-size:${0.6 + Math.random() * 1.2}rem;animation-delay:${Math.random() * 2}s;animation-duration:${2 + Math.random() * 3}s;opacity:${0.2 + Math.random() * 0.5};`;
     particles.appendChild(p);
   }
-
-  // Typewrite the couple name
   const fullName = `${couple.personA} & ${couple.personB}`;
   let i = 0;
   const typeInterval = setInterval(() => {
     titleEl.textContent = fullName.slice(0, ++i);
     if (i >= fullName.length) clearInterval(typeInterval);
   }, 80);
-
-  // Subtitle fade in
   setTimeout(
     () => {
       subEl.textContent = "um presente só pra você";
@@ -774,55 +780,38 @@ function setupIntro() {
     },
     fullName.length * 80 + 200,
   );
-
-  // Progress bar
   setTimeout(() => {
     bar.style.width = "100%";
   }, 300);
-
-  // Dismiss
   const dismiss = () => {
     screen.classList.add("intro-out");
     setTimeout(() => {
       screen.style.display = "none";
     }, 800);
   };
-
   setTimeout(dismiss, 3800);
   screen.addEventListener("click", dismiss);
 }
 
-// ── Map ────────────────────────────────────────────────
 function renderMap() {
   const places = relationshipData.places;
   if (!places || places.length === 0) return;
-
   const container = document.getElementById("mapContainer");
   const placeholder = document.getElementById("mapPlaceholder");
   const pinsList = document.getElementById("mapPins");
   if (!container) return;
-
-  // Check if coords are still defaults (São Paulo center)
-  const hasRealCoords = places.some(
-    (p) => p.lat !== -23.5505 || p.lng !== -46.6333,
-  );
-
-  // Always render the pins list
   pinsList.innerHTML = places
     .map(
       (place, i) => `
-        <div class="map-pin-card" data-index="${i}">
-            <div class="map-pin-emoji">${place.emoji}</div>
-            <div class="map-pin-info">
-                <strong class="map-pin-name">${place.name}</strong>
-                <p class="map-pin-desc">${place.description}</p>
-            </div>
-        </div>
-    `,
+    <div class="map-pin-card" data-index="${i}">
+      <div class="map-pin-emoji">${place.emoji}</div>
+      <div class="map-pin-info">
+        <strong class="map-pin-name">${place.name}</strong>
+        <p class="map-pin-desc">${place.description}</p>
+      </div>
+    </div>`,
     )
     .join("");
-
-  // Try to load Leaflet map
   if (!document.getElementById("leafletCss")) {
     const link = document.createElement("link");
     link.id = "leafletCss";
@@ -830,32 +819,24 @@ function renderMap() {
     link.href = "https://unpkg.com/leaflet@1.9.4/dist/leaflet.css";
     document.head.appendChild(link);
   }
-
   const script = document.createElement("script");
   script.src = "https://unpkg.com/leaflet@1.9.4/dist/leaflet.js";
   script.onload = () => {
     placeholder.style.display = "none";
-
     const mapEl = document.createElement("div");
     mapEl.id = "leafletMap";
     mapEl.style.cssText =
       "width:100%;height:380px;border-radius:20px;overflow:hidden;margin-bottom:1rem;";
     container.insertBefore(mapEl, pinsList);
-
     const center = [places[0].lat, places[0].lng];
     const map = L.map("leafletMap", {
       zoomControl: true,
       scrollWheelZoom: false,
     }).setView(center, 14);
-
     L.tileLayer(
       "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",
-      {
-        attribution: "© OpenStreetMap, © CARTO",
-        maxZoom: 18,
-      },
+      { attribution: "© OpenStreetMap, © CARTO", maxZoom: 18 },
     ).addTo(map);
-
     places.forEach((place, i) => {
       const icon = L.divIcon({
         html: `<div class="map-marker">${place.emoji}</div>`,
@@ -864,14 +845,9 @@ function renderMap() {
         iconAnchor: [22, 44],
       });
       const marker = L.marker([place.lat, place.lng], { icon }).addTo(map);
-      marker.bindPopup(`
-                <div class="map-popup">
-                    <strong>${place.name}</strong>
-                    <p>${place.description}</p>
-                </div>
-            `);
-
-      // Highlight card on marker click
+      marker.bindPopup(
+        `<div class="map-popup"><strong>${place.name}</strong><p>${place.description}</p></div>`,
+      );
       marker.on("click", () => {
         document
           .querySelectorAll(".map-pin-card")
@@ -881,8 +857,6 @@ function renderMap() {
           [i]?.classList.add("is-active");
       });
     });
-
-    // Fit all markers
     if (places.length > 1) {
       const bounds = L.latLngBounds(places.map((p) => [p.lat, p.lng]));
       map.fitBounds(bounds, { padding: [40, 40] });
@@ -891,15 +865,12 @@ function renderMap() {
   document.head.appendChild(script);
 }
 
-// ── Typewriter letter ──────────────────────────────────
 function setupTypewriterLetter() {
   const letterSection = document.getElementById("letter");
   const letterBody = document.getElementById("letterBody");
   if (!letterSection || !letterBody) return;
-
   const text = relationshipData.letter.body;
   let started = false;
-
   const observer = new IntersectionObserver(
     (entries) => {
       entries.forEach((entry) => {
@@ -911,7 +882,6 @@ function setupTypewriterLetter() {
           const type = () => {
             if (i < text.length) {
               letterBody.textContent += text[i++];
-              // Auto-scroll within the card if needed
               letterBody.parentElement.scrollTop =
                 letterBody.parentElement.scrollHeight;
               setTimeout(type, speed);
@@ -925,11 +895,9 @@ function setupTypewriterLetter() {
     },
     { threshold: 0.4 },
   );
-
   observer.observe(letterSection);
 }
 
-// ── Custom audio player ───────────────────────────────
 function setupCustomPlayer(audio) {
   const playBtn = document.getElementById("cpPlay");
   const playIcon = document.getElementById("cpPlayIcon");
@@ -942,13 +910,11 @@ function setupCustomPlayer(audio) {
   const musicSection = document.getElementById("music");
   const toggleBtn = document.getElementById("toggleMusic");
   if (!playBtn) return;
-
   const fmt = (s) => {
     const m = Math.floor(s / 60);
     const sec = Math.floor(s % 60);
     return `${m}:${sec.toString().padStart(2, "0")}`;
   };
-
   const setPlaying = (playing) => {
     playIcon.style.display = playing ? "none" : "";
     pauseIcon.style.display = playing ? "" : "none";
@@ -958,7 +924,6 @@ function setupCustomPlayer(audio) {
       toggleBtn.textContent = playing ? "Pausar trilha" : "Tocar trilha";
     appState.audioEnabled = playing;
   };
-
   playBtn.addEventListener("click", async () => {
     if (audio.paused) {
       await audio.play().catch(() => {});
@@ -966,28 +931,34 @@ function setupCustomPlayer(audio) {
       audio.pause();
     }
   });
-
   audio.addEventListener("play", () => setPlaying(true));
   audio.addEventListener("pause", () => setPlaying(false));
   audio.addEventListener("ended", () => setPlaying(false));
-
   audio.addEventListener("loadedmetadata", () => {
     durationEl.textContent = fmt(audio.duration);
     seekBar.max = audio.duration;
   });
-
   audio.addEventListener("timeupdate", () => {
     currentEl.textContent = fmt(audio.currentTime);
     seekBar.value = audio.currentTime;
   });
-
   seekBar.addEventListener("input", () => {
     audio.currentTime = seekBar.value;
   });
-
   volBar.addEventListener("input", () => {
     audio.volume = volBar.value;
   });
+}
+
+function forceRevealVisible() {
+  setTimeout(() => {
+    document.querySelectorAll(".reveal:not(.visible)").forEach((el) => {
+      const rect = el.getBoundingClientRect();
+      if (rect.top < window.innerHeight && rect.bottom > 0) {
+        el.classList.add("visible");
+      }
+    });
+  }, 300);
 }
 
 function init() {
@@ -1010,18 +981,6 @@ function init() {
   setupTypewriterLetter();
   forceRevealVisible();
   setupIntro();
-}
-
-// Fallback: reveal any panel already in viewport on page load
-function forceRevealVisible() {
-  setTimeout(() => {
-    document.querySelectorAll(".reveal:not(.visible)").forEach((el) => {
-      const rect = el.getBoundingClientRect();
-      if (rect.top < window.innerHeight && rect.bottom > 0) {
-        el.classList.add("visible");
-      }
-    });
-  }, 300);
 }
 
 init();
