@@ -618,7 +618,7 @@ body::before {
 
 .media-card.is-square {
     grid-column: span 4;
-    grid-row: span 5;
+    grid-row: span 7;
 }
 
 .media-card.is-wide-lg {

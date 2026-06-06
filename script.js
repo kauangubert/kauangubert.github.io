@@ -105,7 +105,7 @@ const relationshipData = {
       type: "video",
       title: "Montando Lego ao nascer do sol",
       description: "De uma surpresa que deu errado e virou um momento unico, cheio de risadas e carinho. Pois tudo com você fica melhor.",
-      src: "Images/lego.mov",
+      src: "Images/lego.MOV",
       size: "tall",
     },
     {
@@ -203,7 +203,7 @@ const relationshipData = {
       type: "image",
       title: "Nascer do sol em Torres",
       description: "Mais uma foto linda nossa ao nascer do sol em Torres.",
-      src: "Images/torres.jpg",
+      src: "Images/torres.JPG",
       size: "full",
     },
   ],
