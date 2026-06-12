@@ -3,94 +3,99 @@ const relationshipData = {
     personA: "Kauan",
     personB: "Isabelly",
     startedAt: "2025-10-25",
-    headline: "O nosso amor entrou no top 1 das minhas reproducoes da vida.",
+    headline: "O nosso amor entrou no top 1 das minhas reproduções da vida.",
     intro:
       "Se o nosso relacionamento virasse um Spotify Wrapped, ele apareceria como album favorito, faixa mais repetida e descoberta que mudou tudo ao mesmo tempo.",
   },
   stats: [
     {
       value: calculateDaysTogether("2025-10-25"),
-      label: "dias de nos",
+      label: "dias ao seu lado",
       description:
-        "Tempo suficiente para colecionar risadas, saudades, encontros e uma quantidade enorme de memorias lindas.",
+        "Cada dia contigo virou uma lembrança especial que eu guardo com muito carinho.",
     },
     {
       value: "Top 1",
-      label: "pessoa favorita",
+      label: "lugar no meu coração",
       description:
-        "Voce segue invicta no ranking mais importante do universo inteiro.",
+        "Entre bilhões de pessoas no mundo, você continua ocupando o primeiro lugar.",
     },
     {
-      value: "Replay infinito",
-      label: "categoria oficial",
+      value: "Sem fim",
+      label: "motivos para te amar",
       description:
-        "Nossos momentos juntos entram na lista das lembrancas que eu mais quero reviver.",
+        "Quanto mais o tempo passa, mais razões eu encontro para admirar você.",
     },
     {
       value: "100%",
-      label: "quimica absurda",
+      label: "parceria perfeita",
       description:
-        "Entre carinho, parceria e admiracao, a nota continua la em cima.",
+        "Você é a pessoa que torna os dias difíceis mais leves e os dias bons ainda melhores.",
     },
     {
-      value: "1 trilha",
-      label: "musica do casal",
+      value: "Nossa música",
+      label: "trilha sonora",
       description:
-        "Aquela musica que sempre puxa a memoria do teu sorriso e transforma qualquer dia comum em cena de filme.",
+        "Aquela canção que sempre me faz lembrar do seu sorriso e de tudo o que vivemos juntos.",
     },
     {
       value: "Infinito",
-      label: "planos contigo",
+      label: "sonhos ao seu lado",
       description:
-        "Porque quando o assunto e futuro, eu sempre penso em te ter em cada capitulo.",
+        "Porque todos os meus planos favoritos têm uma coisa em comum: você.",
     },
   ],
+
   topFive: [
     {
-      title: "Paz",
-      description: "Porque perto de voce ate o caos fica mais leve.",
+      title: "Seu sorriso",
+      description:
+        "O detalhe que consegue melhorar qualquer dia, até os mais difíceis.",
     },
     {
-      title: "Saudade boa",
-      description: "Daquelas que so confirmam o quanto voce faz falta.",
+      title: "Seu abraço",
+      description: "Meu lugar favorito no mundo continua sendo perto de você.",
     },
     {
-      title: "Risada sincera",
-      description: "As conversas contigo sempre rendem os melhores momentos.",
+      title: "Nossas risadas",
+      description:
+        "Os momentos mais simples ao seu lado acabam virando os mais especiais.",
     },
     {
-      title: "Borboletas",
-      description: "O frio na barriga segue funcionando direitinho.",
+      title: "Nossa história",
+      description:
+        "Cada capítulo que escrevemos juntos é um dos meus favoritos.",
     },
     {
-      title: "Admiração",
-      description: "Voce continua me encantando nos detalhes.",
+      title: "Você",
+      description:
+        "Porque no final de tudo, o melhor de todos os meus dias é ter você neles.",
     },
   ],
   moments: [
     {
-      date: "Primeiro capitulo",
-      title: "O comeco de tudo",
+      date: "Primeiro capítulo",
+      title: "O começo de tudo",
       description:
-        "Conta aqui como voces se aproximaram, o que te chamou atencao nela e por que aquele momento virou o inicio da historia de voces.",
+        "Em um sábado qualquer que era pra ser tranquilo, de repente em alguns minutos estava correndo me arrumar para ir conhecer você no cinema. E desde então, se tornou uma das melhores lembranças que tenho na vida.",
     },
     {
       date: "Primeiro encontro",
       title: "A cena que eu repetiria mil vezes",
       description:
-        "Descreva o lugar, o clima, o que voces fizeram e o detalhe que te fez perceber que ela era especial.",
+        "Cheguei no cinema para comprar o ingresso, e estava lá você, girando kkkkk. Assistimos o filme, enquanto conversávamos e íamos conhecendo um ao outro, lembro que você estava muito linda e cheirosa. Em um momento você dormiu no meu ombro. E após o filme, fomos comer no pimenta, pois eu não queria que a noite acabasse mais para poder ficar mais tempo com você.",
     },
     {
       date: "Momento favorito",
-      title: "Quando eu pensei: e ela",
+      title: "Quando eu pensei: é ela",
       description:
-        "Pode ser uma viagem, uma conversa, um abraco, uma risada ou um dia simples que ficou gigante para voce.",
+        "Quando percebi o quão amado estava sendo por você, pelos presentes e surpresas fofas que você me deu, e pelos nossos mesmos objetivos de vida.",
     },
     {
       date: "Hoje",
-      title: "A melhor parte ainda esta acontecendo",
+      title: "A melhor parte ainda está acontecendo",
       description:
-        "Fecha a timeline dizendo o que voce mais ama no relacionamento de voces hoje.",
+        "Meu amor por você cresce a cada dia, e mesmo com alguns desentendimentos que temos de vez em quando, sinto que estamos amadurecendo como casal, e fico muito feliz por você estar do meu lado e me apoiando sempre. Quero continuar amadurecendo, te amando, e aprendendo com você, até o resto de nossas vidas.",
     },
   ],
   gallery: [
@@ -106,7 +111,7 @@ const relationshipData = {
       type: "video",
       title: "Montando Lego ao nascer do sol",
       description:
-        "De uma surpresa que deu errado e virou um momento unico, cheio de risadas e carinho. Pois tudo com você fica melhor.",
+        "De uma surpresa que deu errado e virou um momento único, cheio de risadas e carinho. Pois tudo com você fica melhor.",
       src: "Images/lego.MOV",
       size: "tall",
     },
@@ -138,7 +143,7 @@ const relationshipData = {
       type: "video",
       title: "Pôr do sol na Polvilhana",
       description:
-        "Em um dos dias que estavamos na Polvilhana, e assistimos o pôr do sol juntos.",
+        "Em um dos dias que estávamos na Polvilhana, e assistimos o pôr do sol juntos.",
       src: "Images/por_do_sol.mp4",
       size: "tall-sm",
     },
@@ -161,7 +166,7 @@ const relationshipData = {
     {
       type: "image",
       title: "Polvilhana",
-      description: "Quando fomos em um dia a tarde antes da Polvilhana.",
+      description: "Quando fomos em uma tarde antes da Polvilhana.",
       src: "Images/polvilhana1.jpg",
       size: "wide-sm",
     },
@@ -185,7 +190,7 @@ const relationshipData = {
       type: "image",
       title: "Joseph",
       description:
-        "Quando fomo no Joseph no dia da promoção do pastel com vinho, e você estava maravilhosa como sempre.",
+        "Quando fomos no Joseph no dia da promoção do pastel com vinho, e você estava maravilhosa como sempre.",
       src: "Images/joseph.jpg",
       size: "half",
     },
@@ -221,16 +226,16 @@ const relationshipData = {
     },
   ],
   soundtrack: {
-    title: "Nossa musica oficial",
+    title: "Nossa música oficial",
     artist: "Justin Bieber - As Long As You Love Me",
     reason:
-      "Escreva aqui por que essa musica representa voces. Pode ser a letra, a epoca em que voces ouviam juntos ou a memoria que ela desperta.",
+      "Quando ouço essa música, lembro do nosso relacionamento, do quanto a gente se ama, e de como a gente é feliz juntos. Ela tem um significado muito especial pra mim, porque me lembra de você e do nosso amor toda vez que escuto.",
     audioSrc: "Sounds/Justin.mpeg",
     spotifyEmbedUrl: "",
   },
   letter: {
     title: "Para a pessoa que faz minha vida tocar mais bonito",
-    body: "Escreva aqui a sua mensagem final. Vale agradecer por quem ela e, lembrar detalhes que so voces entendem, dizer o quanto ama e terminar com algo bem de voces. Esse espaco foi pensado para ser a ultima faixa do site: a parte que fica ecoando depois que tudo termina.",
+    body: "Meu amor,\n\nEste é o nosso primeiro Dia dos Namorados, e fazem exatamente 231 dias desde que nos conhecemos naquela noite no cinema.\n\nDesde aquele dia, sinto que algo em mim mudou. Foi um momento inesquecível para mim, porque me lembro perfeitamente da mistura de sentimentos que senti naquela hora: felicidade, nervosismo, ansiedade e aquele frio na barriga que parecia não passar. Foi naquele instante que percebi que estava me apaixonando por você.\n\nDesde então, vivemos muitos momentos especiais juntos. Tivemos a Polvilhana, que foi ainda melhor porque você estava comigo; vimos o nascer do sol diversas vezes; passamos nosso primeiro Natal juntos; celebramos a chegada do Ano Novo e o nosso pedido de namoro; tivemos nossos encontros em restaurantes e pubs; nossas noites de filmes; e, mais recentemente, nossos passeios a cavalo, algo que eu sei o quanto você ama e que estou adorando compartilhar ao seu lado.\n\nMas, mais do que todos esses momentos, o que mais me faz feliz é saber que encontrei alguém com quem posso dividir a vida. Alguém que me faz rir, que me apoia, que me entende e que transforma os dias mais simples em lembranças especiais.\n\nObrigado por cada conversa, cada abraço, cada sorriso e por todos os momentos que construímos juntos até aqui. Você tornou esses últimos meses alguns dos mais felizes da minha vida, e sou muito grato por ter você ao meu lado.\n\nNeste nosso primeiro Dia dos Namorados, quero que você saiba o quanto é importante para mim. E, se os últimos 231 dias foram tão incríveis, mal posso esperar para viver todos os próximos capítulos da nossa história com você.\n\nEu te amo. ❤️\n",
   },
   places: [
     {
@@ -251,7 +256,7 @@ const relationshipData = {
     {
       name: "Lugar favorito do casal",
       description:
-        "Começamos a ir recentemente no Joseph, mas ja é um dos nossos lugares preferidos para passar o tempo juntos.",
+        "Começamos a ir recentemente no Joseph, mas já é um dos nossos lugares preferidos para passar o tempo juntos.",
       emoji: "🍺",
       lat: -29.12308744383334,
       lng: -49.645570747692034,
@@ -268,17 +273,17 @@ const relationshipData = {
     {
       question: "Onde foi o nosso primeiro selinho?",
       options: [
-        "Na praia de Balneario Gaivota",
-        "Na saida do cinema",
-        "No Pimenta Pasteis",
+        "Na praia de Balneário Gaivota",
+        "Na saída do cinema",
+        "No Pimenta Pastéis",
         "Na casa de um amigo",
       ],
       correct: 2,
       explanation:
-        "No Pimenta Pasteis, depois do cinema. Um momento simples que nao consigo esquecer.",
+        "No Pimenta Pastéis, depois do cinema. Um momento simples que nao consigo esquecer.",
     },
     {
-      question: "Que presente eu te dei no nosso primeiro mes juntos?",
+      question: "Que presente eu te dei no nosso primeiro mês juntos?",
       options: [
         "Flores e chocolate",
         "Gloss da Francini, chocolate e uma carta",
@@ -287,10 +292,10 @@ const relationshipData = {
       ],
       correct: 1,
       explanation:
-        "Eu sabia o que voce queria e quis fazer voce feliz desde o comeco. Ja era assim em novembro.",
+        "Eu sabia o que você queria e quis fazer você feliz desde o começo. Já era assim em novembro.",
     },
     {
-      question: "Onde assistimos o sol nascer quando pedi voce em namoro?",
+      question: "Onde assistimos o sol nascer quando pedi você em namoro?",
       options: [
         "No mirante da cidade",
         "Na beira da estrada",
@@ -299,7 +304,7 @@ const relationshipData = {
       ],
       correct: 2,
       explanation:
-        "Virada do ano, nossas aliancas e o sol nascendo na praia. Nao podia ser mais perfeito.",
+        "Virada do ano, nossas alianças e o sol nascendo na praia. Não podia ser mais perfeito.",
     },
     {
       question: "Em que dia oficial nos tornamos namorados?",
@@ -311,13 +316,13 @@ const relationshipData = {
       ],
       correct: 2,
       explanation:
-        "01/01/26 — comecamos o ano novo e nossa historia oficial ao mesmo tempo.",
+        "01/01/26 — começamos o ano novo e nossa história oficial ao mesmo tempo.",
     },
     {
       question: "Como eu costumo te chamar?",
       options: ["Bebe", "Mo ou Mozi", "Florzinha", "Princesa"],
       correct: 1,
-      explanation: "Mo ou Mozi — simples, carinhoso e so meu. Assim como voce.",
+      explanation: "Mo ou Mozi — simples, carinhoso e só meu. Assim como você.",
     },
     {
       question: "O que temos feito juntos nos fins de semana ultimamente?",
@@ -730,13 +735,13 @@ function renderQuiz() {
       {
         min: 40,
         icon: "✦",
-        text: "Voce presta atenção nos detalhes que importam.",
+        text: "Você presta atenção nos detalhes que importam.",
       },
-      { min: 70, icon: "✿", text: "Voce conhece bem o nosso mundo!" },
+      { min: 70, icon: "✿", text: "Você conhece bem o nosso mundo!" },
       {
         min: 90,
         icon: "🌹",
-        text: "Voce e minha pessoa favorita e prova isso aqui.",
+        text: "Você é minha pessoa favorita e prova isso aqui.",
       },
     ];
     const msg = [...msgs].reverse().find((m) => pct >= m.min);
